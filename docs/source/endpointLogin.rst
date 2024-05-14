@@ -40,7 +40,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
    
 .. _jsonEntrada:
 3.2     Ejemplo JSON de entrada
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 .. image:: ../images/_3.2.png
    :width: 100%
@@ -49,7 +49,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
 
 .. _respuestaLogin:
 3.3      Respuesta 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 Como respuesta de la operación se va a devolver un (Código 200 - Inicio de Sesión Exitoso) un JSON con la siguiente estructura:
 
@@ -61,7 +61,7 @@ Como respuesta de la operación se va a devolver un (Código 200 - Inicio de Ses
 
 .. _jsonRespuesta:
 3.4.      Ejemplo JSON de respuesta 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 El siguiente es un ejemplo JSON con el formato token de un response: 
 

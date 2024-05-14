@@ -15,7 +15,7 @@ Operación POST que hace la comparación de la imagen del documento de identidad
 
 .. _parametrosDeEntrada3:
 5.1. Parámetros de entrada
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 Objeto JSON que debe cumplir con los siguientes atributos:
 
@@ -37,7 +37,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
 
 .. _jsonEntrada3:
 5.2     Ejemplo JSON de entrada
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 .. image:: ../images/_5.2.1.png
    :width: 100%
@@ -53,7 +53,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
 
 .. _respuestaUrl3:
 5.3      Respuesta 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 Como respuesta de la operación se va a devolver un (Código 200 - Redirección Exitosa) un JSON con la siguiente estructura:
 
@@ -78,7 +78,7 @@ Como respuesta de la operación se va a devolver un (Código 200 - Redirección 
 
 .. _jsonRespuesta3:
 5.4.      Ejemplo JSON de respuesta 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 El siguiente es un ejemplo JSON con el formato token de un response: 
 
