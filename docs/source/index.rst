@@ -8,6 +8,8 @@ Contenido
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contenido
 
    revisionVersiones
    indice
