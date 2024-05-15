@@ -11,7 +11,7 @@ Contenido
    :maxdepth: 2
 
    revisionVersiones
-   indice
+   tablaContenido
    endpointLogin
    endpointManagmentUrl
    endpointMatch
