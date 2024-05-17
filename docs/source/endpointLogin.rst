@@ -72,13 +72,10 @@ El siguiente es un ejemplo JSON con el formato token de un response:
 
 *Texto en cursiva*
 
-_Texto en cursiva_
+***Texto en cursiva***
 
-Este es un ejemplo de ***texto en negrita y cursiva***.
 
-Este es un ejemplo de **_texto en negrita y cursiva_**.
 
-Este es un ejemplo de __*texto en negrita y cursiva*__.
 
 • Primer ítem
   - Subítem 1
