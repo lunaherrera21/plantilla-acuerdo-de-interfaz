@@ -70,19 +70,3 @@ El siguiente es un ejemplo JSON con el formato token de un response:
    :alt: Ejemplo JSON de respuesta 
 
 
-*Texto en cursiva*
-
-***Texto en cursiva***
-
-
-
-
-• Primer ítem
-  - Subítem 1
-  - Subítem 2
-○ Segundo ítem
-  - Subítem 1
-  - Subítem 2
-▪ Tercer ítem
-  - Subítem 1
-  - Subítem 2
