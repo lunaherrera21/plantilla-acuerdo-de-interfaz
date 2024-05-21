@@ -3,7 +3,7 @@
    :toctree: generated
 
 
-.. _endpointManagmentUrl:
+
 4.	Endpoint de obtención de la url 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -13,7 +13,7 @@ Operación POST que genera la url para redirección e inicio del flujo del cotej
 
 **URL Servicio:** https://cotejoselfie-core.gse.com.co/BackLogin/management/url
 
-.. _parametrosDeEntrada2:
+
 4.1. Parámetros de entrada
 =================
 
@@ -29,15 +29,19 @@ Objeto JSON que debe cumplir con los siguientes atributos:
 | typeDocument   | string | 30     | si          | Tipo de documento del usuario: tipos de do-cumentos validos: CC, CE, PA  |
 +----------------+--------+--------+-------------+--------------------------------------------------------------------------+
    
-.. _jsonEntrada2:
+
 4.2     Ejemplo JSON de entrada
 =================
 
-.. image:: ../images/_4.2.png
-   :width: 100%
-   :alt: Ejemplo JSON de entrada
+.. code-block:: json
 
-.. _respuestaUrl2:
+   {
+      "urlSuccess": "https://www.google.com/",
+      "urlError": "https://translate.google.com/",
+      "typeDocument": "CC"
+   }
+
+
 4.3      Respuesta 
 =================
 
@@ -51,7 +55,7 @@ Como respuesta de la operación se va a devolver un (Código 200 - Redirección 
 | redirect      | String |   max   | Url para consumo del servicio de cotejo de vali-dación de identidad. |
 +---------------+--------+---------+----------------------------------------------------------------------+
 
-.. _jsonRespuesta2:
+
 4.4.      Ejemplo JSON de respuesta 
 =================
 

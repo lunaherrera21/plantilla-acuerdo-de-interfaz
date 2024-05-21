@@ -1,10 +1,10 @@
-Acuerdo de interfaz IDENTY!
+Acuerdo de interfaz IDENTY
 ===================================
 
 
 
 
-Contenido
+Tabla de Contenido
 --------
 
 .. toctree::

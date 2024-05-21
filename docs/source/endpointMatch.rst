@@ -3,7 +3,7 @@
    :toctree: generated
 
 
-.. _endpointMatch:
+
 5.	Endpoint de match 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -13,7 +13,7 @@ Operación POST que hace la comparación de la imagen del documento de identidad
 
 **URL Servicio:** https://qa-identy-web-api.gse.com.co/api/v1/matchWithSelfie
 
-.. _parametrosDeEntrada3:
+
 5.1. Parámetros de entrada
 =================
 
@@ -35,7 +35,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
 | level                | enum   | 3      | si          | Es un string que puede variar entre high, me-dium, low correspon de al nivel de seguri-dad o restricción. |
 +----------------------+--------+--------+-------------+-----------------------------------------------------------------------------------------------------------+
 
-.. _jsonEntrada3:
+
 5.2     Ejemplo JSON de entrada
 =================
 
@@ -51,7 +51,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
    :width: 100%
    :alt: Ejemplo JSON de entrada
 
-.. _respuestaUrl3:
+
 5.3      Respuesta 
 =================
 
@@ -76,7 +76,7 @@ Como respuesta de la operación se va a devolver un (Código 200 - Redirección 
 |ToVerifyAgainst    |        |         |                dentro de la imagen de la selfie.                     |
 +-------------------+--------+---------+----------------------------------------------------------------------+
 
-.. _jsonRespuesta3:
+
 5.4.      Ejemplo JSON de respuesta 
 =================
 

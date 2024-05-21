@@ -2,19 +2,19 @@
 .. autosummary::
    :toctree: generated
 
-.. _objetivo:
+
 1.	Objetivo
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describir de manera técnica y detallada el consumo de los servicios de IDENTY. 
 
-.. _usuarioContrasena:
+
 2.	Usuario y contraseña
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
  Para poder consumir los servicios y generar un token es necesario solicitar un usuario y una contraseña. 
  
-.. _endpointLogin:
+
 3. Endpoint Login
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -24,7 +24,7 @@ AMBIENTE: Producción
 
 URL Servicio: https://cotejoselfie-core.gse.com.co/BackLogin/users/login
 
-.. _parametrosDeEntrada:
+
 3.1. Parámetros de entrada
 =================
 
@@ -38,16 +38,19 @@ Objeto JSON que debe cumplir con los siguientes atributos:
 | password   | string | 30     | si          | Clave del usuario para el acceso a GSE            |
 +------------+--------+--------+-------------+---------------------------------------------------+
    
-.. _jsonEntrada:
+
 3.2     Ejemplo JSON de entrada
 =================
 
-.. image:: ../images/_3.2.png
-   :width: 100%
-   :alt: Ejemplo JSON de entrada
+.. code-block:: json
+
+   {
+      "email": "xxxxx@xxx.xxx.xx",
+      "password": "**********"
+   }
 
 
-.. _respuestaLogin:
+
 3.3      Respuesta 
 =================
 
@@ -59,7 +62,7 @@ Como respuesta de la operación se va a devolver un (Código 200 - Inicio de Ses
 | accessToken   | string |         | Cadena con el token de tipo JWT |
 +---------------+--------+---------+---------------------------------+
 
-.. _jsonRespuesta:
+
 3.4.      Ejemplo JSON de respuesta 
 =================
 
