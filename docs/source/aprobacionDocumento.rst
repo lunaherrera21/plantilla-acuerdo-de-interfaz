@@ -3,7 +3,7 @@
 
 .. _aprobacionDocumento:
 6.	Aprobación del documento.
-^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 Corresponde al registro de los nombres, cargos o roles de todas las personas que participa-ron en la elaboración, revisión y aprobación del documento.
 Para el campo de Aprobó se registrará únicamente el nombre y cargo del Líder del proceso al cual pertenece el documento. 

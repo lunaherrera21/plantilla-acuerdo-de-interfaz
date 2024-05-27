@@ -5,7 +5,7 @@
 
 
 4.	Endpoint de obtención de la url 
-^^^^^^^^^^^^^^^^^^^^^^^^
+=================
 
 Operación POST que genera la url para redirección e inicio del flujo del cotejo de validación facial contra documento de identidad.
 
@@ -15,7 +15,7 @@ Operación POST que genera la url para redirección e inicio del flujo del cotej
 
 
 4.1. Parámetros de entrada
-=================
+-----------------
 
 Objeto JSON que debe cumplir con los siguientes atributos:
 
@@ -31,7 +31,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
    
 
 4.2     Ejemplo JSON de entrada
-=================
+-----------------
 
 .. code-block:: json
 
@@ -43,7 +43,7 @@ Objeto JSON que debe cumplir con los siguientes atributos:
 
 
 4.3      Respuesta 
-=================
+-----------------
 
 Como respuesta de la operación se va a devolver un (Código 200 - Redirección Exitosa) un JSON con la siguiente estructura:
 
@@ -57,7 +57,7 @@ Como respuesta de la operación se va a devolver un (Código 200 - Redirección 
 
 
 4.4.      Ejemplo JSON de respuesta 
-=================
+-----------------
 
 El siguiente es un ejemplo JSON con el formato token de un response: 
 
